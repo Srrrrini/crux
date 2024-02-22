@@ -1,0 +1,138 @@
+@import url('non.geist');
+
+
+  .widget.data-widget-blue {
+    font-family: 'Geist Variable';
+      display: flex;
+      flex-direction: column;
+      background-color: #5E5ADB;
+      border: 1px solid 
+      #E6E6E6;
+    }
+  .widget.graph-widget-blue {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+  }  
+  .widget.summary-widget-blue {
+    font-family: 'Inter Variable', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+  }
+
+  .navbar-blue {
+
+  display: flex; /* Change display to block */
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  }
+
+  .navbar-blue button {
+  font-family: 'Geist Variable';
+  font-size: 11px;
+  font-weight: 500; /* Default font weight for all buttons */
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: 
+  #F4F4F4;  ;
+  border: none;
+  background-color: #ffffff00;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+  }
+  .navbar-blue button:first-child {
+  padding-left: 25px;
+  padding-right: 15px;
+  font-weight: 600; /* Font weight for the first button */
+  margin-left: -2px;
+  color:
+  #F4F4F4;
+  }
+  .navbar-blue button:last-child {
+  font-weight: 600; /* Font weight for the first button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-top: 10px;
+  line-height: 1px;
+  font-size: 10px;
+  }
+  .data-table-container-blue {
+  display: flex; /* Change display to block */
+  padding-left: 25px;
+  padding-right: 10px; /* Add padding to separate the table from the navbar */
+  padding-bottom: 0px;
+  }
+
+  .data-table-blue {
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+  .data-table-blue td {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ffffffaa;
+    letter-spacing: 0em;
+    padding: 8px;
+    padding: 1px;
+    border-right: 1px solid #ccc; /* Adjust padding as needed */
+  }
+  /* Vertical lines between table columns */
+  .data-table-blue th {
+    padding-top: 13px;
+    text-align: center;
+    border-right: 1px solid #ccc; 
+    color: 
+    #f1f1f2b2;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    background-color: #ffffff00;
+    border-right: 1px solid #ccc;/* Add vertical border */
+  }
+  .data-table-blue th:first-child{
+    text-align: left;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;
+    color: 
+    #F1F1F2;
+  }
+  .data-table-blue td:first-child {
+    text-align: left; /* Remove border from last column */
+  }
+  .data-table-blue th:last-child,
+  .data-table-blue td:last-child {
+    border-right: none; /* Remove border from last column */
+  }
+  .data-table-blue tr:last-child td {
+    font-weight: bold;
+    background-color: #e0e0e000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #f4f4f4e4;
+    padding-top: 8px;
+    padding-bottom: 20px;
+  }
+
+  
+
+
+

@@ -1,0 +1,68 @@
+.chip {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* Adjust spacing between chips */
+    padding-bottom: 5px;
+  }
+  
+  .color-bar {
+    width: 3px;
+    height: 26px;
+    border-radius: 1px;
+    margin-right: 10px; /* Adjust spacing between color bar and info */
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .number {
+    color: #888; /* Adjust color of the number */
+  }
+  
+  /* White theme */
+  .chip.white .name{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #AFAFAF;
+  }
+  .chip.white .number {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #4F4F4F;
+  }
+  
+  /* Black theme */
+  .chip.black .name {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #7E7E7E;
+  }
+  
+  .chip.black .number {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #F3F3F3;
+  }
+  

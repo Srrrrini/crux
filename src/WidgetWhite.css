@@ -1,0 +1,182 @@
+@import url('non.geist');
+
+  .widget.data-widget-white {
+  font-family: 'Geist Variable';
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid     
+    #E6E6E6;
+    border-radius: 15px;
+  }
+  .widget.data-widget-white3 {
+    font-family: 'Geist Variable';
+      display: flex;
+      flex-direction: column;
+      background-color: #ffffff;
+      border: 1px solid     
+      #E6E6E6;
+      border-radius: 1px;
+    }
+
+  .widget.graph-widget-white {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }  
+  .widget.summary-widget-white {
+
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+  }
+  .widget.summary-widget-white3 {
+
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 15px
+  }
+
+  .navbar-white {
+
+  display: flex; /* Change display to block */
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  }
+
+  .navbar-white button {
+  font-family: 'Geist Variable';
+  font-size: 11px;
+  font-weight: 500; /* Default font weight for all buttons */
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BBBBBB;  ;
+  border: none;
+  background-color: #ffffff00;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+  }
+  .navbar-white button:first-child {
+  padding-left: 25px;
+  padding-right: 15px;
+  font-weight: 600; /* Font weight for the first button */
+  margin-left: 0px;
+  color:#5E5ADB;
+  border-bottom: 3px solid #5E5ADB;
+  }
+  .options{
+    margin-left: auto;
+    padding-right: 10px;
+    padding-top: 17px;
+    color: #D9D9D9;
+  }
+
+  .data-table-container-white {
+  display: flex; /* Change display to block */
+  padding-left: 25px;
+  padding-right: 10px; /* Add padding to separate the table from the navbar */
+  padding-bottom: 0px;
+  }
+
+  .data-table-white {
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+  .data-table-white td {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #474747c1;
+    letter-spacing: 0em;
+    padding: 8px;
+    padding: 1px;
+    border-right: 1px solid #ccc; /* Adjust padding as needed */
+  }
+  /* Vertical lines between table columns */
+  .data-table-white th {
+    padding-top: 13px;
+    text-align: center;
+    border-right: 1px solid #ccc; 
+    color: #ABA8FF;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    background-color: #ffffff00;
+    border-right: 1px solid #ccc;/* Add vertical border */
+  }
+  .data-table-white th:first-child{
+    text-align: left;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #5E5ADB;
+  }
+  .data-table-white td:first-child {
+    text-align: left; /* Remove border from last column */
+  }
+  .data-table-white th:last-child,
+  .data-table-white td:last-child {
+    border-right: none; /* Remove border from last column */
+  }
+  .data-table-white tr:last-child td {
+    font-weight: bold;
+    background-color: #e0e0e000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #393939eb;
+    padding-top: 8px;
+    padding-bottom: 20px;
+  }
+  .summary {
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-right: 35px;
+    overflow: hidden; 
+  }
+
+  .chart-container-white {
+    border-radius: 5px; /* Add border radius */
+    display: flex; /* Use flexbox */
+    padding-left: 10px;
+    padding-right: 15px;
+
+  }
+
+.legend-white{
+  margin-top: 8px;
+  margin-left: 17px;
+  margin-right: 17px;
+  border-top: 2px solid #EDEDED;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-bottom: 70px;
+}

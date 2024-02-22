@@ -1,0 +1,68 @@
+.horizontal-bar {
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    height:64px;
+    background-color: #FFFFFF;
+    border: #E4E4E7;
+  }
+  
+  .box {
+    width: 127px;
+    align-self: center;
+    height: 40px;
+    border-radius: 10px;
+    background: 
+    #f9f9fc;
+    border: 1px solid 
+    #F3F2FC;
+    margin-right: 8px; 
+    color: #8D8D8D;/* Adjust the spacing between boxes */
+  }
+  
+  .box-text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    padding: 10px; /* Adjust text padding inside the box */
+  }
+
+.add-widget {
+    margin-left:600px; 
+    width: 127px;
+    align-self: center;
+    height: 40px;
+    border-radius: 10px;
+    color: #5E5ADB;
+    background: 
+    #F3F2FC;
+    border: 1px solid 
+    #E0DFF8;
+    margin-right: 8px;
+    
+    
+  }
+  .customer-box {
+    width: 127px;
+    align-self: center;
+    height: 40px;
+    border-radius: 10px;
+    color: #5E5ADB;
+    background: 
+    #F3F2FC;
+    border: 1px solid 
+    #E0DFF8;
+    margin-right: 8px;
+  }
+  .settings-icon {
+    margin-left: auto;
+    padding-right: 30px;
+    align-self: center;
+  }
+  .cross{
+    padding-left: 10px;
+  }

@@ -1,0 +1,425 @@
+[  {
+  "title": "Data Widget 1",
+  "key":1,
+  "data_description": {
+    "navbarOptions": ["7d", "14d", "30d"],
+    "navbartype":"scrolldown",
+    "tableData": {
+      "headers": ["Q1-23", "Q2-23"],
+      "rows": [
+        { "product": "Reusable", "values": ["10%", "4%"] },
+        { "product": "Natural", "values": ["2%", "11%"] },
+        { "product": "Compost", "values": ["7%", "5%"] },
+        { "product": "Reusable..", "values": ["3%", "4%"] }
+      ],
+      "total": ["8%", "12%"]
+    },
+    "colour":"white",
+    "size": {
+      "height":"190px",
+      "width":"190px"
+    },
+    "font":"Inter"
+  },
+  "data_date": "dropdown",
+
+
+  "font":"Inter"
+},{
+  "title": "Data Widget 1",
+  "key":2,
+  "data_description": {
+    "navbarOptions": ["Today"],
+    "navbartype":"scrolldown",
+    "tableData": {
+      "headers": ["Q1-23", "Q2-23"],
+      "rows": [
+        { "product": "Reusable", "values": ["10%", "4%"] },
+        { "product": "Natural", "values": ["2%", "11%"] },
+        { "product": "Compost", "values": ["7%", "5%"] },
+        { "product": "Reusable..", "values": ["3%", "4%"] }
+      ],
+      "total": ["8%", "12%"]
+    },
+    "colour":"blue",
+    "size": {
+      "height":"190px",
+      "width":"190px"
+    },
+    "font":"Inter"
+  },
+  "data_date": "dropdown",
+
+
+  "font":"Geist"
+},
+  {
+    "title": "Data Widget 1",
+    "key":3,
+    "order":[2,1,3],
+    "data_description": {
+      "navbarOptions": ["7d", "14d", "30d"],
+      "navbartype":"tab",
+      "tableData": {
+        "headers": ["Q1-23", "Q2-23"],
+        "rows": [
+          { "product": "Reusable", "values": ["10%", "4%"] },
+          { "product": "Natural", "values": ["2%", "11%"] },
+          { "product": "Compost", "values": ["7%", "5%"] },
+          { "product": "Reusable..", "values": ["3%", "4%"] }
+        ],
+        "total": ["8%", "12%"]
+      },
+      "colour":"white",
+      "size": {
+        "height":"190px",
+        "width":"204px"
+      },
+      "font":"Inter"
+    },
+    "data_date": "dropdown",
+    "graph_description": {
+      "navbarOptions": ["7d", "14d", "30d"],
+      "chartType": "bar",
+      "chartData": {
+        "labels": ["January", "February", "March", "April", "May", "June"],
+        "data": [25000, 38000, 16000, 28000, 8000, 21000],
+        "colours":["#F1E254","#FF8E8E","#96D3FF",
+        "#5FDC8F",
+        "#F182F3","#5E5ADB"],
+        "inter":10000
+      },
+      "colour":"black",
+      "size": {
+        "height":"190px",
+        "width":"204px"
+      },
+      "font":"Inter"
+    },
+    "graph_date": "days",
+    "summary_description": { 
+      "summary": "Based on the provided data, the most effective hour of the day to send an email across all stores for all time, with the highest engagement after opening, is at 15:00(3 PM), with a total of 5041 emails opened. The next best hours are 16:00 (4 PM) and 17:00 (5 PM) with 5007 and 4785 emails opened respectively. There is a noticeable drop in " ,
+    "navbarOptions": ["Today"],
+    "summary_date": "dropdown",
+    "colour":"white",
+    "size": {
+      "height":"190px",
+      "width":"436px"
+    }
+  
+  },
+
+    "font":"Inter"
+  },
+  {
+    "title": "Data Widget 1",
+    "key":4,
+    "data_description": {
+      "navbarOptions": ["7d", "14d", "30d"],
+      "navbartype":"scrolldown",
+      "tableData": {
+        "headers": ["Q1-23", "Q2-23", "Q3-23", "Q4-23", "Q1-24"],
+        "rows": [
+          {"product": "Reusable", "values": ["10%", "4%", "4%", "4%", "4%"]},
+          {"product": "Natural Resource", "values": ["2%", "11%", "11%", "11%", "11%"]},
+          {"product": "Compost Compound", "values": ["7%", "5%", "5%", "5%", "5%"]},
+          {"product": "Reusable Materials", "values": ["3%", "4%", "4%", "4%", "4%"]},
+          {"product": "Reusable", "values": ["10%", "4%", "4%", "4%", "4%"]},
+          {"product": "Natural Resource", "values": ["2%", "11%", "11%", "11%", "11%"]},
+          {"product": "Compost Compound", "values": ["7%", "5%", "5%", "5%", "5%"]},
+          {"product": "Reusable Materials", "values": ["3%", "4%", "4%", "4%", "4%"]},
+          {"product": "Reusable", "values": ["10%", "4%", "4%", "4%", "4%"]},
+          {"product": "Natural Resource", "values": ["2%", "11%", "11%", "11%", "11%"]},
+          {"product": "Compost Compound", "values": ["7%", "5%", "5%", "5%", "5%"]},
+          {"product": "Reusable Materials", "values": ["3%", "4%", "4%", "4%", "4%"]},
+          {"product": "Reusable", "values": ["10%", "4%", "4%", "4%", "4%"]},
+          {"product": "Natural Resource", "values": ["2%", "11%", "11%", "11%", "11%"]},
+          {"product": "Compost Compound", "values": ["7%", "5%", "5%", "5%", "5%"]}
+        ],
+        "total": ["8%", "12%", "7%", "20%", "3%"]
+      },
+      "colour":"black",
+      "size": {
+        "width":"418px",
+        "height":"408px"
+      },
+      "font":"Inter"
+    },
+    "data_date": "dropdown",
+  
+  
+    "font":"Inter"
+  },
+  {
+    "key":5,
+    "summary_description": { 
+    "summary": "Based on the provided data, the most effective hour of the day to send an email across all stores for all time, with the highest engagement after opening, is at 15:00(3 PM), with a total of 5041 emails opened. The next best hours are 16:00 (4 PM) and 17:00 (5 PM) with 5007 and 4785 emails opened respectively. There is a noticeable drop in " ,
+  "navbarOptions": ["Today"],
+  "summary_date": "dropdown",
+  "colour":"white",
+  "size": {
+    "height":"190px",
+    "width":"436px"
+  }
+
+}},
+{
+  "key":6,
+  "graph_description": {
+    "navbarOptions": ["7d", "14d", "30d"],
+    "chartType": "line",
+    "chartData": {
+      "labels": ["","Google", "Instagram", "Facebook", "Tiktok"],
+      "series": [
+        {
+          "name": "Christmas25",
+          "data": [15000,12000, 4000, 8000, 6000],
+          "value":"5,700",
+          "color":"#FF8E8E"
+        },
+        {
+          "name": "BirthdaySpecial25",
+          "data": [7000,21000, 26000, 4000, 2000],
+          "value":"27,000",
+          "color":"#5E5ADB"
+        },
+        {
+          "name": "Newuser30",
+          "data": [20000,26000, 10000, 12000, 25000],
+          "value":"12,500",
+          "color":"#54D787"
+        },
+        {
+          "name": "Newuser30",
+          "data": [0,3000, 2500, 2500, 4000],
+          "value":"16,000",
+          "color":"#82D1DB"
+        },
+        {
+          "name": "Newuser30",
+          "data": [10000,14000, 20000, 17500, 15000],
+          "value":"17,500",
+          "color":"#F0AB24"
+        }
+      ],
+      "colours":["#F1E254","#FF8E8E","#96D3FF","#5FDC8F","#F182F3","#5E5ADB"],
+      "inter":10000
+    },
+    "colour":"black",
+    "size": {
+      "height":"623px",
+      "width":"204px"
+    },
+    "font":"Inter",
+    "legend":"true"
+  }
+},
+
+{
+  "key": 7,
+  "graph_description": {
+    "navbarOptions": ["7d", "14d", "30d"],
+    "chartType": "pie",
+    "chartData": {
+      "labels": ["Sep", "Aug", "Jul", "Jun"],
+      "data": [31150, 8005, 18695, 31150],
+      "colours": ["#F1E254", "#FF8E8E", "#96D3FF", "#5FDC8F", "#F182F3", "#5E5ADB"],
+      "inter": 10000
+    },
+    "colour": "white",
+    "size": {
+      "height": "190px",
+      "width": "190px"
+    },
+    "font": "Inter"
+  }
+},
+{
+  "key":8,
+  "title": "Data Widget 1",
+  "data_description": {
+    "navbarOptions": ["7d", "14d", "30d"],
+    "navbartype":"scrolldown",
+    "tableData": {
+      "headers": ["Q1-23", "Q2-23"],
+      "rows": [
+        { "product": "Reusable", "values": ["10%", "4%"] },
+        { "product": "Natural", "values": ["2%", "11%"] },
+        { "product": "Compost", "values": ["7%", "5%"] },
+        { "product": "Reusable..", "values": ["3%", "4%"] }
+      ],
+      "total": ["8%", "12%"]
+    },
+    "colour":"black",
+    "size": {
+      "height":"190px",
+      "width":"190px"
+    },
+    "font":"Inter"
+  },
+  "data_date": "dropdown",
+
+
+  "font":"Inter"
+}
+, {
+  "key":9,
+  "title": "Data Widget 1",
+  "data_description": {
+    "navbarOptions": ["Today"],
+    "navbartype":"scrolldown",
+    "tableData": {
+      "headers": ["Q1-23", "Q2-23"],
+      "rows": [
+        { "product": "Reusable", "values": ["10%", "4%"] },
+        { "product": "Natural", "values": ["2%", "11%"] },
+        { "product": "Compost", "values": ["7%", "5%"] },
+        { "product": "Reusable..", "values": ["3%", "4%"] }
+      ],
+      "total": ["8%", "12%"]
+    },
+    "colour":"blue",
+    "size": {
+      "height":"190px",
+      "width":"190px"
+    },
+    "font":"Inter"
+  },
+  "data_date": "dropdown",
+
+
+  "font":"Inter"
+},
+{
+  "key":10,
+  "graph_description": {
+    "navbarOptions": ["7d", "14d", "30d"],
+    "chartType": "line",
+    "chartData": {
+      "graphheight":"233px",
+      "labels": ["","Google", "Instagram", "Facebook", "Tiktok"],
+      "series": [
+        {
+          "name": "Christmas25",
+          "data": [15000,12000, 4000, 8000, 6000],
+          "value":"5,700",
+          "color":"#FF8E8E"
+        },
+        {
+          "name": "BirthdaySpecial25",
+          "data": [7000,21000, 26000, 4000, 2000],
+          "value":"27,000",
+          "color":"#5E5ADB"
+        },
+        {
+          "name": "Newuser30",
+          "data": [20000,26000, 10000, 12000, 25000],
+          "value":"12,500",
+          "color":"#54D787"
+        }
+      ],
+      "colours":["#F1E254","#FF8E8E","#96D3FF"],
+      "inter":10000
+    },
+    "colour":"white",
+    "size": {
+      "height":"415px",
+      "width":"190px"
+    },
+    "font":"Inter",
+    "legend":"true"
+  }
+},
+
+{
+  "key":11,
+  "title": "Data Widget 1",
+  "data_description": {
+    "navbarOptions": ["7d", "14d", "30d"],
+    "navbartype":"scrolldown",
+    "tableData": {
+      "headers": ["Q1-23", "Q2-23"],
+      "rows": [
+        { "product": "Reusable", "values": ["10%", "4%"] },
+        { "product": "Natural", "values": ["2%", "11%"] },
+        { "product": "Compost", "values": ["7%", "5%"] },
+        { "product": "Reusable..", "values": ["3%", "4%"] }
+      ],
+      "total": ["8%", "12%"]
+    },
+    "colour":"black",
+    "size": {
+      "height":"190px",
+      "width":"190px"
+    },
+    "font":"Inter"
+  },
+  "data_date": "dropdown",
+
+
+  "font":"Inter"
+},
+
+{
+  "key":12,
+  "graph_description": {
+    "navbarOptions": ["7d", "14d", "30d"],
+    "chartType": "line",
+    "chartData": {
+      "legend":"False",
+      "labels": ["","Google", "Instagram", "Facebook", "Tiktok"],
+      "series": [
+        {
+          "name": "Christmas25",
+          "data": [15000,12000, 4000, 8000, 6000],
+          "value":"5,700",
+          "color":"#FF8E8E"
+        },
+        {
+          "name": "BirthdaySpecial25",
+          "data": [7000,21000, 26000, 4000, 2000],
+          "value":"27,000",
+          "color":"#5E5ADB"
+        },
+        {
+          "name": "Newuser30",
+          "data": [20000,26000, 10000, 12000, 25000],
+          "value":"12,500",
+          "color":"#54D787"
+        }
+      ],
+      "colours":["#F1E254","#FF8E8E","#96D3FF"],
+      "inter":10000
+    },
+    "colour":"white",
+    "size": {
+      "height":"190px",
+      "width":"190px"
+    },
+    "font":"Inter",
+    "legend":"false"
+  }
+},
+{
+  "key":13,
+  "graph_description": {
+  "navbarOptions": ["7d", "14d", "30d"],
+  "chartType": "bar",
+  "chartData": {
+    "labels": ["January", "February", "March", "April", "May", "June"],
+    "data": [29500, 44000, 21000, 33000, 9000, 26000],
+    "colours":["#F1E254","#FF8E8E","#96D3FF",
+    "#5FDC8F",
+    "#F182F3","#5E5ADB"],
+    "inter":5000,
+    "horizontal_grid":"True"
+  },
+  "colour":"white",
+  "size": {
+    "height":"405px",
+    "width":"190px"
+  },
+  "font":"Inter"
+}}
+
+]

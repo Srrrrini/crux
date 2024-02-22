@@ -1,0 +1,132 @@
+.dashboard1 {
+  display: grid;
+  grid-template-areas:
+    'head1 head2 head3 head3 head3 head3'
+    'head4 head4 head5 head5 head6 head7'
+    'head4 head4 head10 head11 head6 head13'
+    'head8 head9 head10 head12 head6 head13';
+  column-gap: 1px;
+  row-gap: 30px;
+  margin-left: 70px;
+  background-color: #F4F4FF;
+  padding: 30px;
+   /* Set width to fit the content */
+}
+
+.dashboard-1 {
+  grid-area: head1;
+  display: inline-block;
+}
+
+.dashboard-2 {
+  grid-area: head2;
+  display: inline-block;
+  padding-right: 2px;
+}
+
+.dashboard-3 {
+  grid-area: head3;
+  display: inline-flex;
+  
+}
+
+.dashboard-4 {
+  grid-area: head4;
+  margin-right: -55px;
+  display: inline-flex;
+  
+}
+
+.dashboard-5 {
+  grid-area: head5;
+  margin-right: -65px;
+  display: inline-flex;
+  
+}
+
+.dashboard-6 {
+  grid-area: head6;
+  margin-right: -25px;
+  display: inline-flex;
+  
+}
+
+.dashboard-7 {
+  grid-area: head7;
+
+  display: inline-flex;
+  
+}
+
+.dashboard-8 {
+  grid-area: head8;
+
+  display: inline-flex;
+  
+}
+
+.dashboard-9 {
+  grid-area: head9;
+
+  display: inline-flex;
+  
+}
+
+.dashboard-10 {
+  grid-area: head10;
+
+  display: inline-flex;
+  
+}
+
+.dashboard-11 {
+  grid-area: head11;
+
+  display: inline-flex;
+  
+}
+
+.dashboard-12 {
+  grid-area: head12;
+
+  display: inline-flex;
+  
+}
+
+.dashboard-13 {
+  grid-area: head13;
+
+  display: inline-flex;
+  
+}
+
+
+
+  .widget {
+    
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 0px;
+    margin-bottom: 0px; /* Adjust margin to create space between widgets */
+  }
+  
+  .data-widget, .graph-widget, .summary-widget {
+    flex: 1; /* Each type takes equal space */
+  }
+  
+  .data-widget {
+    background-color: #f0f0f0;
+  }
+  
+  .graph-widget {
+    background-color: #e0e0e0;
+  }
+  
+  .summary-widget {
+    background-color: #d0d0d0;
+  }
+  
+  .widget h3 {
+    margin-top: 0;
+  }
+  
